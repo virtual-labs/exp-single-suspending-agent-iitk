@@ -1,13 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>virtual lab</title>
+    <link rel="stylesheet"href="style.css">
 </head>
-<body>
-		<!-- Your code goes here-->
+    <div class="pharmacy_class"></div>
+    <div class="container">
+        <!-- top container -->
+        <div class="inst-container">
+            <h1>Instruction :- Preparation of suspension containing 0% suspending agent</h1>
+        </div>
+        <div class="language-select">
+            <select id="languageSelector" class="lang-dropdown">
+                <option value="" disabled selected>Select Language</option>
+                <option value="en">English</option>
+                <option value="hi">हिंदी (Hindi)</option>
+                <option value="mr">मराठी (Marathi)</option>
+                <option value="gu">ગુજરાતી (Gujarati)</option>
+                <option value="bn">বাংলা (Bengali)</option>
+            </select>
+        </div>
+        <div class="conatiner2">
+            <div class="appratus-selector">
+                <div class="menu">
+                    <h5>Appratus Menu</h5>
+                    <input type="button" id="Mortar Pestle" value="Mortar Pestle">
+                    <input type="button" id="measuring cylinders" value="Measuring Cylinders">
+                    <input type="button" id="beakers" value="Beakers">
+                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                    <button id="confirm-button">ADD</button>
+                    <input type="button" id=" suspending agent" value=" Suspending Agent">
+                    <input type="button" id="water as breaker" value="Water as Breaker">
+                </div>
+            </div>
+            <div class="pharmacy_class"></div>
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+            <div class="pestle"></div>
+            <div class="mortal"></div>
+            <div class="beaker-near-cylinder">
+                <div class="beaker-water"></div>
+            </div>
+            <div class="measuring-cylinders-container">
+                <div class="measuring-cylinder"></div>
+                <div class="measuring-cylinder"></div>
+                <div class="measuring-cylinder"></div>
+                <div class="measuring-cylinder"></div>
+            </div>
+            
+            <!-- Bottom -->
+            <div class="navigation-buttons">
+                <button class="str-btn">Start</button>
+                <!-- <button class="prev-btn">Previous</button>
+                <button class="next-btn"> Next</button> -->
+            </div>
+        </div>
+         <!-- Sample1 container -->
+            <div class="sample" id="Calamine1"></div>
+            <div class="sample" id="Calamine2"></div>
+            <div class="sample" id="Calamine3"></div>
+            <div class="sample" id="Calamine4"></div>
+            <div class="sample" id="Bentonite5"></div>
+            <div class="sample" id="Bentonite6"></div>
+            <div class="sample" id="Bentonite7"></div>
+        
+        <!-- breakers- container -->
+         
+        <div class="breaker" id="beaker1"></div>
+        <div class="breaker" id="beaker2"></div>
+        <div class="breaker" id="beaker3"></div>
+        <div class="breaker" id="beaker4"></div>
+        
 </body>
+<footer></footer>
+</body>
+<!-- GSAP Animation Library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="script.js"></script>
 </html>

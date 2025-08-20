@@ -1,0 +1,564 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: skyblue;
+}
+.container .inst-container{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(92, 171, 171);
+}   
+.conatiner2{
+    height: 645px;
+    width: 100%;
+    background-color: lightcyan;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.appratus-selector {
+    height: 875px;
+    width: 300px;
+    background: linear-gradient(145deg, #2193b0, #6dd5ed);  /* Beautiful gradient background */
+    position: relative;
+    top: 130px;
+    left: 5px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    border: 1px solid rgba(255,255,255,0.1);
+}
+.appratus-selector .menu {
+    height: 500px;
+    width: 280px;
+    position: relative;
+    top: 30px;
+    left: 10px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.95);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    backdrop-filter: blur(5px);
+}
+.appratus-selector .menu h5 {
+    font-size: 26px;
+    color: #1a5f7a;
+    margin-bottom: 25px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+}
+.appratus-selector .menu input[type="button"] {
+    height: 45px;
+    width: 250px;
+    background: linear-gradient(to right, #2193b0, #3498db);
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    color: white;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin: 5px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.appratus-selector .menu input[type="button"]:hover {
+    background: linear-gradient(to right, #1c7aaf, #2980b9);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.appratus-selector .menu input[type="range"] {
+    width: 250px;
+    margin: 15px 0;
+}
+
+.appratus-selector .menu #confirm-button {
+    height: 45px;
+    width: 140px;
+    background: linear-gradient(to right, #00b09b, #96c93d);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 15px 0;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+}
+
+.appratus-selector .menu #confirm-button:hover {
+    background: linear-gradient(to right, #00986c, #7ab80e);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 12px rgba(0,0,0,0.2);
+}
+
+/* Stylish range slider */
+.appratus-selector .menu input[type="range"] {-webkit-appearance: none;
+    width: 250px;
+    height: 10px;
+    background: linear-gradient(to right, #2193b0, #6dd5ed);
+    border-radius: 5px;
+    margin: 20px 0;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.2);
+}
+
+.appratus-selector .menu input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 22px;
+    height: 22px;
+    background: #ffffff;
+    border: 2px solid #2193b0;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+}
+
+.appratus-selector .menu input[type="range"]::-webkit-slider-thumb:hover {
+    background: #2193b0;
+    transform: scale(1.1);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+ .pharmacy_class{
+    height: 880px;
+    width: 1630px;
+    background-image: url(finalpharmacylab.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 50px;
+    left: 310px;
+}
+
+.container3{
+    height: 500px;
+    width: 200px;
+    background-color: lightseagreen;
+    position: absolute;
+    left: 100px;
+
+}
+
+.sample-container {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 830px;
+    left: 350px;    /* Adjusted to position beside beakers */
+    gap: 10px;
+    z-index: 3;     /* Same z-index as beakers to be on same layer */
+}
+
+.row {
+    display: flex;
+    gap: 8px;
+}
+
+.sample {
+    background-image: url(./sample_powder2.png);
+    height: 25px;
+    width: 80px;
+
+    background-size: cover;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+/* Sample1 dedicated container */
+.sample1-container {
+    position: absolute;
+    top: 830px;
+    left: 350px;    /* Position beside beakers */
+    z-index: 3;
+}
+/* Sample2 container */
+.sample-container {
+    position: absolute;
+    top: 830px;
+    left: 450px;    /* Position to the right of sample1 */
+    z-index: 3;
+}
+
+/* Sample styling */
+.sample {
+    background-image: url(sample_powder.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+    z-index: 4;
+}
+
+#Calamine1{
+    position: absolute;
+    left: 53%;
+    bottom: 7%;
+    height: 100px;
+    width: 100px;
+}
+#Calamine2{
+    position: absolute;
+    left: 43%;
+    bottom: 7%;
+    height: 100px;
+    width: 100px;
+}
+#Calamine3{
+    position: absolute;
+    left: 48%;
+    bottom: 7%;
+    height: 100px;
+    width: 100px;
+}
+#Calamine4{
+    position: absolute;
+    left: 38%;
+    bottom: 7%;
+    height: 100px;
+    width: 100px;
+}
+#Bentonite5{
+    position: absolute;
+    left: 45%;
+    bottom: 2.5%;
+    height: 100px;
+    width: 100px;
+}
+#Bentonite6{
+    position: absolute;
+    left: 40%;
+    bottom: 2.5%;
+    height: 100px;
+    width: 100px;
+}
+#Bentonite7{
+    position: absolute;
+    left: 50%;
+    bottom: 2.5%;
+    height: 100px;
+    width: 100px;
+}
+/* Hover effect */
+.sample:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+}
+
+
+/* Sample1 click animation */
+@keyframes moveToMortar {
+    0% { transform: translate(0, 0); opacity: 1; }
+    50% { transform: translate(100px, -50px); opacity: 1; }
+    100% { transform: translate(250px, -30px); opacity: 0; }
+}
+
+.sample.moving {
+    animation: moveToMortar 1.5s forwards;
+}
+
+/* Hover effect */
+.sample:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+}
+
+.row:nth-child(2) {
+    display: flex;
+    justify-content: flex-start;
+}
+.navigation-buttons {
+ position: fixed;
+ bottom: 50px;
+ right: 30px;
+ display: flex;
+ gap: 5px;
+ z-index: 10;
+}
+.navigation-buttons button{
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor:pointer;
+    transition: background-color 0.3s transform0.2s;
+}
+.navigation-buttons button:hover{
+    background-color: #388E3C;
+    transform: scale(1.05);
+}
+.footer{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+}
+.language-select {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    z-index: 1000;
+}
+.language-select select {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.language-select select:hover {
+    border-color: #888;
+}
+
+.language-select select:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+}
+
+/* Moving mortar to left side */
+.mortal {
+    background-image: url(mortal.png);
+    height: 80px;
+    width: 160px;
+    position: absolute;
+    top: 800px;
+    left:  1100px;    /* Changed from 1100px to 600px to move to left */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 2;
+}
+
+/* Keeping pestle position same */
+.pestle {
+    height: 30px;     /* Decreased from 40px to 30px */
+    width: 150px;     /* Decreased from 200px to 150px */
+    position: absolute;
+    top: 810px;      /* Slightly adjusted to align better with mortar */
+    left: 1210px;    /* Increased from 1180px to 1500px to move right */
+    background-image: url(pestle.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 7;    /* Keeping high z-index to stay in front */
+    transform-origin: 20% 50%;
+    transform: rotate(-90deg); /* Keep pestle vertical (-90 degrees) */
+}
+
+/* Reference: measuring cylinders position */
+.measuring-cylinders-container {
+    display: flex;
+    gap: 20px;  /* space between cylinders */
+    position: absolute;
+    top: 730px;
+    left: 1500px;    /* changed from 1600px to 1500px to move all cylinders slightly left */
+    z-index: 2;
+}
+
+.measuring-cylinder {
+    height: 260px;
+    width: 110px;
+    background-image: url( Measuring\ cylinder[1].png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor:pointer;
+}
+
+/* Reference: beakers position */
+.beakers-container {
+    background-image: url(beaker.png);
+    display: flex;
+    flex-direction: row;  /* Keeps beakers in a row */
+    gap: 20px;  /* space between beakers */
+    position: absolute;
+    top: 770px;
+    left: 550px;    /* Changed from 900px to 310px to move to left side */
+    z-index: 3;
+}
+#beaker1{
+    height: 120px;
+    width: 80px;
+    background-image: url(beaker.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 750px;
+    left: 630px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+#beaker2{
+    height: 120px;
+    width: 80px;
+    background-image: url(beaker.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 750px;
+    left: 520px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+#beaker3{
+    height: 120px;
+    width: 80px;
+    background-image: url(beaker.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 800px;
+    left: 500px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    z-index: 4;
+
+}
+#beaker4{
+    height: 120px;
+    width: 80px;
+    background-image: url(beaker.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 800px;
+    left: 600px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+
+ .beakers-container1 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    position: absolute;
+    top: 770px;
+    left: 500px;
+    z-index: 3;
+}
+
+/* .beaker {
+    height: 120px;
+    width: 80px;
+    background-image: url(beaker.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+} */
+
+.beaker:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+}
+
+/* Add new class for the beaker near measuring cylinders */
+.beaker-near-cylinder {
+    height: 120px;
+    width: 80px;
+    background-image: url(beaker.png);   /* url(./water.png);  Add both beaker and water images */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    position: absolute;
+    top: 730px;
+    left: 1350px;
+    z-index: 3;
+
+}
+
+/* Add water level class */
+.beaker-water {
+    position: absolute;
+    bottom: 16%;  /* Adjust this value to control water level */
+    left: 46%;
+    transform: translateX(-50%);
+    width: 55px;  /* Slightly smaller than beaker width */
+    height: 60px;  /* Adjust height for water level */
+    background-color: rgba(135, 206, 235, 0.6);  /* Light blue transparent color */
+    border-radius: 0 0 10px 10px;
+    opacity: .5;
+    z-index: 1;
+}
+
+.beaker-near-cylinder:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+}
+
+
+/* Animation elements */
+.powder-animation {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.water-animation {
+    position: absolute;
+    width: 10px;
+    height: 30px;
+    background-color: rgba(135, 206, 235, 0.6);
+    border-radius: 5px;
+    pointer-events: none;
+    
+}
+
+.liquid-transfer-animation {
+    position: absolute;
+    width: 15px;
+    height: 100px;
+    background: linear-gradient(to bottom, transparent, rgba(135, 206, 235, 0.6));
+    pointer-events: none;
+
+}
+
+/* Step indication */
+.inst-container h1 {
+    transition: all 0.3s ease;
+}
+
+/* Active elements */
+.active {
+    border: 2px solid #4CAF50 !important;
+    box-shadow: 0 0 10px rgba(76, 175, 80, 0.5) !important;
+}

@@ -1,4 +1,4 @@
-<b>Materials Required</b><br>
+<b>Materials Required:</b><br>
 ● Suspending agent (e.g., tragacanth, sodium CMC, or xanthan gum)<br>
 ● Active ingredient (e.g., zinc oxide)<br>
 ● Distilled water<br>
@@ -12,7 +12,7 @@
 ● Labels and marker pen<br>
 ● Graduated test tubes or sedimentation bottles<br>
 
-<b>Procedure</b><br>
+<b>Procedure:</b><br>
 ● Weigh the required amount of drug powder for all samples (e.g., 5 g of zinc oxide per 50 mL batch).<br>
 ● Prepare four suspensions with different concentrations of a single suspending agent (e.g., 0.25%, 0.5%, 1%, 1.5%).<br>
 ● Disperse the suspending agent in a small quantity of water and stir until a uniform mucilage forms.<br>

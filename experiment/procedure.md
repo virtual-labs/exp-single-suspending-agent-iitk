@@ -1,4 +1,4 @@
-<b>Materials Required:</b><br>
+<b>Requirements (Instruments, Chemicals & Other):</b><br>
 ● Suspending agent (e.g., tragacanth, sodium CMC, or xanthan gum)<br>
 ● Active ingredient (e.g., zinc oxide)<br>
 ● Distilled water<br>
@@ -24,7 +24,7 @@
 ● Calculate the sedimentation volume (F) for each suspension using the formula: F = Vu / Vo.<br>
 ● Compare sedimentation volume values to determine the effect of concentration.<br>
 
-<b>Observation Table (Sample Format): </b><br>
+<!-- <b>Observation Table (Sample Format): </b><br>
 
 | **Sample** | **Concentration (%)** | **Initial Volume (Vo) (mL)** | **Final Sediment Volume (Vu) (mL)** | **Sedimentation Volume (F = Vu/Vo)** |
 |-------------|------------------------|-------------------------------|--------------------------------------|--------------------------------------|

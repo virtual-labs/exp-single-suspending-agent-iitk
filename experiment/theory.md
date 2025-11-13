@@ -1,10 +1,10 @@
-<b>Objectives</b><br>
+<!-- <b>Objectives</b><br>
 ● To prepare suspensions using different concentrations of one suspending agent.<br> 
 ● To measure sedimentation volume over time.<br> 
 ● To compare stability based on sedimentation volume.<br> 
 ● To determine the optimal concentration for better suspension stability.<br> 
 
-<b>Theory</b><br> 
+<b>Theory</b><br> -->
 Sedimentation volume is a key parameter used to evaluate the physical stability of pharmaceutical suspensions. It is defined as the ratio of the final volume of sediment (Vu) to the original volume of the suspension (Vo), represented as:<br> 
 F = Vu / Vo<br> 
 

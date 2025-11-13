@@ -2,35 +2,86 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. Sedimentation volume (F) is defined as:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "The ratio of drug solubility to solvent volume",
+        "b": "The ratio of dispersed phase to continuous phase",
+        "c": "The ratio of final sediment volume to initial suspension volume (Vu/Vo)",
+        "d": "The viscosity of the suspension"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
       },
-      "correctAnswer": "a",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
-    {
-      "question": "This is a Sample Question 2?",
+       {
+      "question": "2. A high sedimentation volume (F) in a suspension indicates:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Poor suspension stability",
+        "b": "Rapid sedimentation",
+        "c": "Good physical stability and easy redispersion",
+        "d": "Excessive drug settling"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+        {
+      "question": "3. According to Stokes’ Law, the sedimentation rate is inversely proportional to:",
+      "answers": {
+        "a": "Particle size",
+        "b": "Density of dispersed phase",
+        "c": "Viscosity of the medium",
+        "d": "Temperature"
+      },
+      "explanations": {
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+        {
+      "question": "4. The main function of a suspending agent in a suspension is to:",
+      "answers": {
+        "a": "Increase the solubility of the drug",
+        "b": "Increase viscosity and reduce sedimentation rate",
+        "c": "Improve drug color and taste",
+        "d": "Decrease particle size"
+      },
+      "explanations": {
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+        {
+      "question": "5. Which of the following is an example of a commonly used suspending agent?",
+      "answers": {
+        "a": "Sodium chloride",
+        "b": "Lactose",
+        "c": "Sodium carboxymethyl cellulose (sodium CMC)",
+        "d": "Magnesium oxide"
+      },
+      "explanations": {
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #alertBox {
+        padding: 20px;
+        background-color: #ffdddd;
+        border: 1px solid #f44336;
+        cursor: pointer;
+      }
+
+      /* Keyframe animation for the shake */
+      @keyframes shake {
+        0%,
+        100% {
+          transform: translateX(0);
+        }
+        10%,
+        30%,
+        50%,
+        70%,
+        90% {
+          transform: translateX(-10px);
+        }
+        20%,
+        40%,
+        60%,
+        80% {
+          transform: translateX(10px);
+        }
+      }
+
+      /* The class we add with JS */
+      .shake-it {
+        animation: shake 0.5s ease-in-out;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="alertBox">Click me to shake!</div>
+    <script>
+      const alertBox = document.getElementById("alertBox");
+
+      alertBox.addEventListener("click", () => {
+        // Add the class to start the animation
+        alertBox.classList.add("shake-it");
+
+        // Listen for the animation to end
+        alertBox.addEventListener(
+          "animationend",
+          () => {
+            // IMPORTANT: Remove the class so it can be re-triggered
+            alertBox.classList.remove("shake-it");
+          },
+          { once: true }
+        ); // { once: true } auto-removes the listener after it runs
+      });
+    </script>
+  </body>
+</html>

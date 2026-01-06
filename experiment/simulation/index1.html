@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #consistentBall {
+        width: 50px;
+        height: 50px;
+        background-color: seagreen;
+        border-radius: 50%;
+        position: absolute;
+        left: 0;
+        top: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="consistentBall"></div>
+
+    <script>
+      const ball = document.getElementById("consistentBall");
+      let position = 0;
+      let lastTimestamp = 0; // To store the time of the last frame
+
+      function animationLoop(timestamp) {
+        if (!lastTimestamp) {
+          lastTimestamp = timestamp; // Set initial timestamp
+        }
+
+        // 1. Calculate delta time (time elapsed since last frame) in seconds
+        const deltaTime = (timestamp - lastTimestamp) / 1000;
+
+        // 2. Define a speed (e.g., 300 pixels per second)
+        const speed = 300;
+
+        // 3. Update position based on speed and delta time
+        position += speed * deltaTime;
+
+        // Reset if it goes off-screen
+        if (position > window.innerWidth) {
+          position = -50;
+        }
+
+        ball.style.transform = `translateX(${position}px)`;
+
+        // 4. Update lastTimestamp for the next frame
+        lastTimestamp = timestamp;
+
+        // 5. Request the next frame
+        requestAnimationFrame(animationLoop);
+      }
+
+      // Start the animation
+      requestAnimationFrame(animationLoop);
+    </script>
+  </body>
+</html>

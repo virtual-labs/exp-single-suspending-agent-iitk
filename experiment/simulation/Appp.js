@@ -109,7 +109,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         betonite3.addEventListener("click", function() {
 
-        updateInstructions("Preparation of suspension containing 0% suspending agent");
+        updateInstructions("click on the bentonite powder to put on the mortar");
 
         if (experimentState.firstStep) {
             console.log("Betonite3 already clicked, skipping animation.");

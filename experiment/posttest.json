@@ -2,37 +2,88 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "In this experiment, as the concentration of the suspending agent increases:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Sedimentation volume decreases",
+        "b": "Suspension becomes less stable",
+        "c": "Sedimentation volume increases, improving stability",
+        "d": "No effect on sedimentation"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
       },
-      "correctAnswer": "a",
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+      },
+      {
+      "question": "The optimal concentration of a suspending agent provides:",
+      "answers": {
+        "a": "Minimum viscosity with poor redispersibility",
+        "b": "Maximum viscosity with gel formation",
+        "c": "Balanced viscosity ensuring stability and pourability",
+        "d": "No viscosity at all"
+      },
+      "explanations": {
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
+      },
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Excessively high concentration of suspending agent may lead to:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
+        "a": "Clear solution formation",
+        "b": "Gel formation and poor flowability",
+        "c": "Lower viscosity",
+        "d": "Faster sedimentation"
+    },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
+    },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The sedimentation volume (F) is calculated using the parameters:",
+      "answers": {
+        "a": "Vo and viscosity",
+        "b": "Vu and Vo",
+        "c": "Time and density",
+        "d": "Volume and weight"
+    },
+      "explanations": {
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
+    },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The increase in suspension stability with concentration is mainly due to:",
+      "answers": {
+        "a": "Increased density difference",
+        "b": "Increased viscosity of the dispersion medium",
+        "c": "Increased particle size",
+        "d": "Increased solubility of the drug"
+    },
+      "explanations": {
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
       },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]

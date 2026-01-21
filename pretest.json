@@ -1,0 +1,65 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. Sedimentation volume (F) is defined as:",
+      "answers": {
+        "a": "The ratio of drug solubility to solvent volume",
+        "b": "The ratio of dispersed phase to continuous phase",
+        "c": "The ratio of final sediment volume to initial suspension volume (Vu/Vo)",
+        "d": "The viscosity of the suspension"
+      },
+
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+       {
+      "question": "2. A high sedimentation volume (F) in a suspension indicates:",
+      "answers": {
+        "a": "Poor suspension stability",
+        "b": "Rapid sedimentation",
+        "c": "Good physical stability and easy redispersion",
+        "d": "Excessive drug settling"
+      },
+
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+        {
+      "question": "3. According to Stokes’ Law, the sedimentation rate is inversely proportional to:",
+      "answers": {
+        "a": "Particle size",
+        "b": "Density of dispersed phase",
+        "c": "Viscosity of the medium",
+        "d": "Temperature"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+        {
+      "question": "4. The main function of a suspending agent in a suspension is to:",
+      "answers": {
+        "a": "Increase the solubility of the drug",
+        "b": "Increase viscosity and reduce sedimentation rate",
+        "c": "Improve drug color and taste",
+        "d": "Decrease particle size"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+        {
+      "question": "5. Which of the following is an example of a commonly used suspending agent?",
+      "answers": {
+        "a": "Sodium chloride",
+        "b": "Lactose",
+        "c": "Sodium carboxymethyl cellulose (sodium CMC)",
+        "d": "Magnesium oxide"
+      },
+
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}

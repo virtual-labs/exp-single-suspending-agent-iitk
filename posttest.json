@@ -1,0 +1,65 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "In this experiment, as the concentration of the suspending agent increases:",
+      "answers": {
+        "a": "Sedimentation volume decreases",
+        "b": "Suspension becomes less stable",
+        "c": "Sedimentation volume increases, improving stability",
+        "d": "No effect on sedimentation"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+      },
+      {
+      "question": "The optimal concentration of a suspending agent provides:",
+      "answers": {
+        "a": "Minimum viscosity with poor redispersibility",
+        "b": "Maximum viscosity with gel formation",
+        "c": "Balanced viscosity ensuring stability and pourability",
+        "d": "No viscosity at all"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Excessively high concentration of suspending agent may lead to:",
+      "answers": {
+        "a": "Clear solution formation",
+        "b": "Gel formation and poor flowability",
+        "c": "Lower viscosity",
+        "d": "Faster sedimentation"
+    },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The sedimentation volume (F) is calculated using the parameters:",
+      "answers": {
+        "a": "Vo and viscosity",
+        "b": "Vu and Vo",
+        "c": "Time and density",
+        "d": "Volume and weight"
+    },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The increase in suspension stability with concentration is mainly due to:",
+      "answers": {
+        "a": "Increased density difference",
+        "b": "Increased viscosity of the dispersion medium",
+        "c": "Increased particle size",
+        "d": "Increased solubility of the drug"
+    },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}
